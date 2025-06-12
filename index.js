@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import readline from 'readline-sync'   //for userinput from terminal 
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAdUtWh7dYsie3kv2JiTlbvd0OdJBJRGa0" });
+const ai = new GoogleGenAI({ apiKey: YOUR_API_KEY });
 
 //stores the chat history during runtime
 const chatHistory = [
